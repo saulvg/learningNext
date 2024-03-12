@@ -6,11 +6,9 @@ This is a repository where I will conduct courses about Next.js
 
 <section>
   <details>
-    <h3>
     <summary>
-     Next from cero 
+     ### Next from cero 
     </summary>
-    </h3>
     <section>
       <h4> 🌐 Reference website </h4>
        <a href='https://nextjs.org/learn'>Start building with Next.js</a>

@@ -7,7 +7,7 @@ This is a repository where I will conduct courses about Next.js
 <section>
   <details>
     <summary>
-      <span style="font-size: larger;">Next from cero</span> 
+      <strong style="font-size: larger;">Next from cero</strong> 
     </summary>
     <section>
       <h4> 🌐 Reference website </h4>

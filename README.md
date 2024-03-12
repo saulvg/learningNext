@@ -7,7 +7,7 @@ This is a repository where I will conduct courses about Next.js
 <section>
   <details>
     <summary>
-    <h3> Next from cero </h3>
+     Next from cero 
     </summary>
     <section>
       <h4> 🌐 Reference website </h4>

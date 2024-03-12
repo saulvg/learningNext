@@ -4,8 +4,6 @@ This is a repository where I will conduct courses about Next.js
 
 ## 📚 Courses
 
-### Next from cero
-
 <section>
   <details>
     <summary>

@@ -5,6 +5,7 @@ This is a repository where I will conduct courses about Next.js
 ## 📚 Courses
 
 <section>
+  <blockquote>
   <details>
     <summary>
       <strong style="font-size: larger;">Next from cero</strong> 
@@ -29,6 +30,7 @@ This is a repository where I will conduct courses about Next.js
       </section>
     </section>
   </details>
+  </blockquote>
 </section>
 
 

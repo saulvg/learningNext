@@ -15,6 +15,7 @@ This is a repository where I will conduct courses about Next.js
        <a href='https://nextjs.org/learn'>Start building with Next.js</a>
        <h4> 📒 Chapters </h4>
           <section>
+        <blockquote>
             <details name='chaptersBasicNext'>
               <summary>
                  Capitulo 1
@@ -27,6 +28,7 @@ This is a repository where I will conduct courses about Next.js
               </summary>
               <p>Hacemos algo</p>
             </details>
+            </blockquote>
       </section>
     </section>
   </details>

@@ -12,7 +12,6 @@ This is a repository where I will conduct courses about Next.js
     <section>
       <h4> 🌐 Reference website </h4>
        <a href='https://nextjs.org/learn'>Start building with Next.js</a>
-      ## Hola
        <h4> 📒 Chapters </h4>
           <section>
             <details name='chaptersBasicNext'>

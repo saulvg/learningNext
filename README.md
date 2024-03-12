@@ -7,7 +7,7 @@ This is a repository where I will conduct courses about Next.js
 <section>
   <details>
     <summary>
-      <strong>Next from cero</strong> 
+      <span style="font-size: larger;">Next from cero</span> 
     </summary>
     <section>
       <h4> 🌐 Reference website </h4>
@@ -16,13 +16,13 @@ This is a repository where I will conduct courses about Next.js
           <section>
             <details name='chaptersBasicNext'>
               <summary>
-                <h4> Capitulo 1 </h4>
+                 Capitulo 1
               </summary>
               <p>Creamos un nuevo proyecto react</p>
             </details>
             <details name='chaptersBasicNext'>
               <summary>
-                <h4> Capitulo 2 </h4>
+                Capitulo 2 
               </summary>
               <p>Hacemos algo</p>
             </details>

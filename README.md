@@ -27,6 +27,8 @@ This is a repository where I will conduct courses about Next.js
               <p>Cargar fuentes de google en el fichero fonts</p>
               <p>Imagenes optimizadas gracias al componente Nativo "Image"</p>
               <p>Enrutado por archivos "file sistem routing"</p>
+              <p>Añadir layout a diferenes niveles</p>
+              <p>Para que la pagaina sea "Singel page aplication" recuerda que los enlaces sean 'Link' de Next</p>
             </details>
             <details name='chaptersBasicNext'>
               <summary>

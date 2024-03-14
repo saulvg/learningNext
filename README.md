@@ -29,6 +29,9 @@ This is a repository where I will conduct courses about Next.js
               <p>Enrutado por archivos "file sistem routing"</p>
               <p>Añadir layout a diferenes niveles</p>
               <p>Para que la pagaina sea "Singel page aplication" recuerda que los enlaces sean 'Link' de Next</p>
+              <p>Por defecto todos los componentes por defecto van a ser server side render, por lo que si necesitamos que un componente sea client component deberemos indicarlo en el archivo, por ejemplo si queremos acceder a la ruta de una pagina con el usePathname()</p>
+              <p>Creacion de .env e implementacion de las variables de entorno desde 'https://vercel.com/dashboard/stores'</p>
+              <p>Feching de datos </p>
             </details>
             <details name='chaptersBasicNext'>
               <summary>

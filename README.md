@@ -32,6 +32,8 @@ This is a repository where I will conduct courses about Next.js
               <p>Por defecto todos los componentes por defecto van a ser server side render, por lo que si necesitamos que un componente sea client component deberemos indicarlo en el archivo, por ejemplo si queremos acceder a la ruta de una pagina con el usePathname()</p>
               <p>Creacion de .env e implementacion de las variables de entorno desde 'https://vercel.com/dashboard/stores'</p>
               <p>Feching de datos en React server components "dashboard/page"</p>
+              <p>Creamos un archivo loading a nivel de la pagina que queramos que muestre otra cosa mientras se espera a la peticion fetch, en este caso en el dashboard</p>
+              <p>Utilizamos el streaming de datos y el componente "Suspense" y su prop "fallback" para que se ejecute la pagina mientras espera a que las peticiones realizadas en los componentes dentro de suspense esten listas y asi no hacer que toda la pagina espere a tener todos los datos, por lo tanto el loadig de la pagina ya no haria tanta falta, porque vamos a controlar la carga de cada componente</p>
             </details>
             <details name='chaptersBasicNext'>
               <summary>

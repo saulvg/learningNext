@@ -34,6 +34,7 @@ This is a repository where I will conduct courses about Next.js
               <p>Feching de datos en React server components "dashboard/page"</p>
               <p>Creamos un archivo loading a nivel de la pagina que queramos que muestre otra cosa mientras se espera a la peticion fetch, en este caso en el dashboard</p>
               <p>Utilizamos el streaming de datos y el componente "Suspense" y su prop "fallback" para que se ejecute la pagina mientras espera a que las peticiones realizadas en los componentes dentro de suspense esten listas y asi no hacer que toda la pagina espere a tener todos los datos, por lo tanto el loadig de la pagina ya no haria tanta falta, porque vamos a controlar la carga de cada componente</p>
+              <p>Manejo y captura del contenido del input Search, ademas de reflejarlo en la url 'la fuente de la verdad' gracias al useSearchParams() y otros hooks de las rutas, control de los params de la url para compartir url etc...</p>
             </details>
             <details name='chaptersBasicNext'>
               <summary>

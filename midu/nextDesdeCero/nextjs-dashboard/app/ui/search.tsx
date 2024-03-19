@@ -2,13 +2,17 @@
 
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import { useSearchParams, usePathname, useRouter } from 'next/navigation';
+import { useDebouncedCallback } from 'use-debounce';
 
 export default function Search({ placeholder }: { placeholder: string }) {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();
+  const WAIT_BETWEEN_CHANGE = 300;
 
-  const handleSearch = (term: string) => {
+  //Envolvemos este metodo con el useDebounce para que se ejecute pasados los segundos que le marquemos
+  const handleSearch = useDebouncedCallback((term: string) => {
+    console.log(term);
     //Es nativo de web api para acceder a la ruta, etc.. investiga, "searchParams" vendria a ser el "windows.location.search", pero el hook lo hace por nosotros
     const params = new URLSearchParams(searchParams);
     if (term) {
@@ -16,12 +20,14 @@ export default function Search({ placeholder }: { placeholder: string }) {
     } else {
       params.delete('query');
     }
+    //Tambien vamos a setear la paginacion, la idea es que con cada busqueda tambien se reinicie
+    params.set('page', '1');
 
-    //Ahora queremos actulizar la ruta mientras escribimos en el input, para ello utilizaremos los hooks de useRouter u usePathname y montaremos la ruta
+    //Ahora queremos actulizar la ruta mientras escribimos en el input, para ello utilizaremos los hooks de useRouter y usePathname y montaremos la ruta
     replace(`${pathname}?${params}`);
     //Por ulitmo y para mejorar la experiencia del usuario, haremos que al entrar a la misma url formada con los params, el valor en este caso del input sea el que corresponde por la url, pero esto podria trasladarse a otras acciones de la web, este es un ejemplo
     //Para ello pondremos en el input el valor por defecto dle param, sencillo
-  };
+  }, WAIT_BETWEEN_CHANGE);
   return (
     <div className="relative flex flex-1 flex-shrink-0">
       <label htmlFor="search" className="sr-only">

@@ -42,6 +42,7 @@ This is a repository where I will conduct courses about Next.js
               <p>Vamos a utilizar los server actions para el formulario de las facturas, los servver actions nos permiten utilizar codigo asincrono directamente en el servidor, esto nos permite suprimir la creacion de un api y sus endpoints cada vez que queramos mutar datos en la base de datos</p>
               <p>Vamos a crear una pagina para crear una factura dentro de invoices para aplicar aqui los server actions, aqui llamaremos a el componente Form para que se nos abra asi un formulario, y enste componte es donde vamos a trabajar con los server actions, para ello vamos a crear en la carpeta lib un fichero actions.ts para crear nuestras acciones/mutaciones en relaciona nuestra base de datos, lo encaezaremos con un use server, marcando asi qeu esto solo se ejecuta en el servidor, sin que cliente pueda verlo o que ni siquiera llegue</p>
               <p>Enviamos los datos del formulario y los recogemos en las actions, truquitos, etc...</p>
+              <p>Insertamos los datos del formulario en nuestra base de datos gracias al fichero actions donde esta la logica del servidor para esta accion y refrescamos, revalidamos la cache acto seguido para que estos cambios sean visibles para los usuarios</p>
             </details>
             <details name='chaptersBasicNext'>
               <summary>
